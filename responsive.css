@@ -1,0 +1,297 @@
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+  }
+
+  .wrapper {
+    display: none;
+  }
+  .home-left {
+    display: block;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding-left: 0px;
+  }
+
+  #logo {
+    height: 120px;
+    width: 120px;
+    border-radius: 75px;
+    margin-right: 10px;
+    position: absolute;
+    top: -79px;
+    left: -167px;
+  }
+  #mike {
+    font-size: 35px;
+    left: 0px;
+  }
+  #caption {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+    border-radius: 60px;
+    position: absolute;
+    left: -3px;
+    top: 0px;
+  }
+  #today {
+    top: 168px;
+    left: 43px;
+  }
+  #money {
+    left: 45px;
+    font-size: 60px;
+  }
+  #but-1 {
+    top: 420px;
+    left: 105px;
+    font-size: 17px;
+    width: 198px;
+    height: 50px;
+  }
+  #cap-1 {
+    top: 257px;
+    left: 55px;
+    font-size: 17px;
+  }
+  #m-2 {
+    top: 307px;
+    left: 61px;
+    font-size: 25px;
+  }
+  #cap-2 {
+    top: 340px;
+    left: 61px;
+    font-size: 9px;
+  }
+  #m-3 {
+    top: 307px;
+    left: 226px;
+    font-size: 25px;
+  }
+  #cap-3 {
+    top: 339px;
+    left: 226px;
+    font-size: 10px;
+  }
+  #whale {
+    display: block;
+    max-width: 9%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+  }
+  .home-middle {
+    background-color: white;
+    display: block;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 709px 0px 0px 0px;
+    padding-bottom: 1000px;
+    height: 100%;
+    width: 100%;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+  }
+  #a-1 {
+    top: 100px;
+    left: 50px;
+  }
+  #a-2 {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 23px;
+  }
+  #a-3 b {
+    position: absolute;
+    top: 43px;
+    left: -436px;
+    font-size: 43px;
+  }
+  #a-4 {
+    top: 246px;
+    left: 58px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #a-5 b {
+    position: absolute;
+    top: 131px;
+    left: -668px;
+    font-size: 55px;
+  }
+  #a-6 {
+    top: 350px;
+    left: 66px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #a-7 b {
+    top: 166px;
+    left: -729px;
+    position: absolute;
+    font-size: 42px;
+    line-height: 20px;
+  }
+
+  #a-8 {
+    top: 339px;
+    left: 256px;
+    font-size: 10px;
+    line-height: 21px;
+  }
+  #a-9 b {
+    top: 173px;
+    left: -421px;
+    position: absolute;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #ss {
+    display: flex;
+    position: absolute;
+    top: 499px;
+    left: 12px;
+    width: 12%px;
+    height: 100px;
+  }
+  #chartContainer {
+    display: none;
+  }
+
+  #a-10 {
+    position: relative;
+    bottom: -638px;
+    left: -39px;
+    font-size: 6px;
+  }
+  #a-11 {
+    position: absolute;
+    bottom: 293px;
+    left: 53px;
+    font-size: 10px;
+  }
+  #a-12 {
+    position: absolute;
+    bottom: 250px;
+    left: 53px;
+    font-size: 20px;
+  }
+  #a-13 {
+    position: absolute;
+    bottom: 220px;
+    left: 53px;
+    font-size: 20px;
+  }
+  #a-14 {
+    position: absolute;
+    bottom: 190px;
+    left: 53px;
+    font-size: 20px;
+  }
+  #but-2 {
+    position: absolute;
+    bottom: 272px;
+    left: 155px;
+  }
+  #but-3 {
+    position: absolute;
+    bottom: 242px;
+    left: 155px;
+  }
+  #but-4 {
+    position: absolute;
+    bottom: 209px;
+    left: 155px;
+  }
+  #ss2 {
+    display: flex;
+    position: relative;
+    top: 800px;
+    left: -60px;
+    width: 10px;
+    height: 60px;
+  }
+  #chart1,
+  #chart2,
+  #chart3 {
+    display: none;
+  }
+
+  #b-1 {
+    position: absolute;
+    top: 919px;
+    right: -44px;
+    font-size: 20px;
+  }
+  #b-2 {
+    position: absolute;
+    top: 1000px;
+    right: -72px;
+
+    font-size: 20px;
+  }
+  #b-3 {
+    position: absolute;
+    top: 1069px;
+    right: -72px;
+    height: 17px;
+    width: 202px;
+  }
+  #b-4 {
+    position: absolute;
+    top: 1099px;
+    right: -23px;
+    font-size: 20px;
+  }
+  #b-5 {
+    position: absolute;
+    right: -72px;
+    top: 1155px;
+    height: 17px;
+    width: 202px;
+  }
+  #b-6 {
+    position: absolute;
+    top: 1206px;
+    right: -72px;
+    font-size: 14px;
+  }
+  #b-7 {
+    position: absolute;
+    top: 1298px;
+    right: -72px;
+  }
+  #b-8 {
+    position: absolute;
+    top: 1368px;
+    right: -166px;
+    height: 55px;
+    width: 343px;
+    border-radius: 14px;
+  }
+  #b-9,
+  #b-10,
+  #b-11,
+  #b-12,
+  #b-13,
+  #b-14,
+  #b-q,
+  #w,
+  #e {
+    display: none;
+  }
+}
